@@ -26,7 +26,7 @@ The Average Time Duration of a tag is the average time difference between adjace
 The method used in our paper is given in ATDMethods.java. We show how to estimate the number of tags by the measurement of ATD in CountingDemo.java. The result is printed in the command line.
  
 #### 4. Evaluation:
-You can calculate the estiamtion error of ATD by running GroundTruth.java. In this class, we count the number of tags by esclusively collecting all tag IDs.
+You can calculate the estiamtion error of ATD by running GroundTruth.java. In this class, we obtain the true number of tags by esclusively collecting all tag IDs.
  
 ## Project Structure 
     code
