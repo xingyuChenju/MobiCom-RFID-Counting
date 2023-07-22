@@ -10,8 +10,8 @@ This artifact presents the implemental details of ATD. ATD is an efficient RFID 
 The software development of the system is Java. The JDK version is 1.80\_121 and [Intellij IDEA](https://www.jetbrains.com/idea/) is severed as the compiler for editing and running these codes. The Java codes are based on [Alien SDK](https://www.alientechnology.com/products/readers/alr-f800/) and are used to measure the Average Time Durations (ATD) from tag responses. The measurement of ATD will be used to predicte the number of tags within a reader's coverage zone.
 
 #### 2. Measure Average Time Duration:
-Connect an RFID reader to the computer.
- 
+Connect an RFID reader to the computer. The method to use Alien-F800 reader can be found in [Alien-F800](https://www.alientechnology.com/products/readers/alr-f800/).
+
 After that, run AlienUtil.java to initialize the setting of RFID reader. 
 
 Finally, start CountingDemo.java and the number of tags will be printed in the command line. The data format is as follows:
