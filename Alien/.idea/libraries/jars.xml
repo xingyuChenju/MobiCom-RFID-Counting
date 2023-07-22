@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Alien_Java_SDK_v2.3.5_2014-01/Alien_Java_SDK_v2.3.5_2014_01/jars" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.mail.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../Alien_Java_SDK_v2.3.5_2014-01/Alien_Java_SDK_v2.3.5_2014_01/jars" recursive="false" />
+  </library>
+</component>

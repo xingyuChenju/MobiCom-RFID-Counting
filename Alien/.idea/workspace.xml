@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5dafd752-4ad1-43f9-b817-fb8f20ea43f3" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TwoReaders_java$CountingDemo.ic" NAME="CountingDemo Coverage Results" MODIFIED="1689690354748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TwoReaders_java$ATDM.ic" NAME="ATDM Coverage Results" MODIFIED="1689670979493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CountingDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CountingDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlienClass1Reader.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/AlienRFID.jar!/com/alien/enterpriseRFID/reader/AlienClass1Reader.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22092">
+              <caret line="1067" column="41" selection-start-line="1067" selection-start-column="39" selection-end-line="1067" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ATDMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ATDMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#4693#4694#0" expanded="true" />
+                <element signature="e#4726#4727#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlienUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AlienUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroundTruth.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1659">
+              <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MReaders.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MReaders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>}</find>
+      <find>getCustomTagList</find>
+      <find>Buffer</find>
+      <find>clearInputBuffer</find>
+      <find>400</find>
+      <find>100</find>
+      <find>200</find>
+      <find>att</find>
+      <find>&quot;time</find>
+      <find>time</find>
+      <find>Session(</find>
+      <find>averagetime</find>
+      <find>antenna</find>
+      <find>count</find>
+      <find>data2.c</find>
+      <find>setflag2a</find>
+      <find>data2</find>
+      <find>setflag2A</find>
+      <find>task</find>
+      <find>counttag</find>
+      <find>fun_get_m</find>
+      <find>et</find>
+      <find>obtainnum</find>
+      <find>write</find>
+      <find>Read</find>
+      <find>rou</find>
+      <find>System</find>
+      <find>G2SL</find>
+      <find>SL</find>
+      <find>SL</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>CloneDetection</replace>
+      <replace>200</replace>
+      <replace>100</replace>
+      <replace>Reader</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/GroundTruth/groundtruth1.txt" />
+        <option value="$PROJECT_DIR$/TagClone6/TagSet.txt" />
+        <option value="$PROJECT_DIR$/src/AutoDemo.java" />
+        <option value="$PROJECT_DIR$/src/AutoDemo2.java" />
+        <option value="$PROJECT_DIR$/src/Data.java" />
+        <option value="$PROJECT_DIR$/src/Demo3.java" />
+        <option value="$PROJECT_DIR$/src/Demo0411.java" />
+        <option value="$PROJECT_DIR$/TagClone190510/dataALL5.txt" />
+        <option value="$PROJECT_DIR$/TagClone190513/dataALL1.txt" />
+        <option value="$PROJECT_DIR$/TagClone190513/dataALL2.txt" />
+        <option value="$PROJECT_DIR$/TagClone190511/dataALL1.txt" />
+        <option value="$PROJECT_DIR$/src/CloneTag.java" />
+        <option value="$PROJECT_DIR$/src/PureRead.java" />
+        <option value="$PROJECT_DIR$/src/ResetEPC.java" />
+        <option value="$PROJECT_DIR$/src/CloneTag2.java" />
+        <option value="$PROJECT_DIR$/data191104/times/test4.txt" />
+        <option value="$PROJECT_DIR$/data191104/water/test4.txt" />
+        <option value="$PROJECT_DIR$/data200610/water/alien1.txt" />
+        <option value="$PROJECT_DIR$/src/BasicWrite.java" />
+        <option value="$PROJECT_DIR$/src/Temperature.java" />
+        <option value="$PROJECT_DIR$/src/Demo.java" />
+        <option value="$PROJECT_DIR$/src/NewNumberOfTags.java" />
+        <option value="$PROJECT_DIR$/data220214/1000/Time1515.txt" />
+        <option value="$PROJECT_DIR$/data220214/1000/Time0505.txt" />
+        <option value="$PROJECT_DIR$/data220222/ADT50/data0.txt" />
+        <option value="$PROJECT_DIR$/src/NumberOfTags.java" />
+        <option value="$PROJECT_DIR$/src/OldTwoReaders.java" />
+        <option value="$PROJECT_DIR$/src/Kmeans.java" />
+        <option value="$PROJECT_DIR$/src/One.java" />
+        <option value="$PROJECT_DIR$/src/BasicRead.java" />
+        <option value="$PROJECT_DIR$/src/ATD.java" />
+        <option value="$PROJECT_DIR$/src/AlienUtil.java" />
+        <option value="$PROJECT_DIR$/src/Read.java" />
+        <option value="$PROJECT_DIR$/src/ATDM.java" />
+        <option value="$PROJECT_DIR$/src/ReaderFunctions.java" />
+        <option value="$PROJECT_DIR$/src/CountingDemo.java" />
+        <option value="$PROJECT_DIR$/src/ATDMethods.java" />
+        <option value="$PROJECT_DIR$/src/TwoReaders.java" />
+        <option value="$PROJECT_DIR$/src/GroundTruth.java" />
+        <option value="$PROJECT_DIR$/src/MReaders.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1455" />
+    <option name="height" value="760" />
+  </component>
+  <component name="ProjectId" id="253aOlq258mX2CeFeLKoHWBR6Yq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TwoReaders.java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alien" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TwoReaders.java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alien" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Alien\Alien (2)\Alien\src" />
+      <recent name="F:\文章【2022-02-14】\TagCounting-main\Alien\src" />
+      <recent name="C:\Users\陈星宇\Documents\GitHub\MinimumReadPower\Alien\src" />
+      <recent name="C:\Users\陈星宇\Documents\GitHub\TagClone\alien\Blast\TagClone190517" />
+      <recent name="C:\Users\陈星宇\Documents\GitHub\TagClone\alien\Blast\TagClone190510" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MReaders">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+    </configuration>
+    <configuration name="AlienUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlienUtil" />
+      <module name="RFIDCounting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CountingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountingDemo" />
+      <module name="RFIDCounting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="GroundTruth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GroundTruth" />
+      <module name="RFIDCounting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MReaders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MReaders" />
+      <module name="RFIDCounting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TwoReaders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoReaders" />
+      <module name="RFIDCounting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AlienUtil" />
+      <item itemvalue="Application.GroundTruth" />
+      <item itemvalue="Application.TwoReaders" />
+      <item itemvalue="Application.CountingDemo" />
+      <item itemvalue="Application.MReaders" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MReaders" />
+        <item itemvalue="Application.GroundTruth" />
+        <item itemvalue="Application.CountingDemo" />
+        <item itemvalue="Application.AlienUtil" />
+        <item itemvalue="Application.TwoReaders" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dafd752-4ad1-43f9-b817-fb8f20ea43f3" name="Default" comment="" />
+      <created>1553233428414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553233428414</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012126" side_tool="true" weight="0.39964157" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32983023" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.38088444" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297491" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.39784947" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7449275" visible="true" weight="0.30563003" />
+      <window_info id="Structure" order="1" sideWeight="0.25507247" side_tool="true" weight="0.31851253" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987874" weight="0.39942938" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32952926" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.38172042" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7449275" visible="true" weight="0.31851253" />
+      <window_info id="Structure" order="1" sideWeight="0.25507247" side_tool="true" visible="true" weight="0.31851253" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987874" weight="0.39964157" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.39784947" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5012126" side_tool="true" weight="0.39964157" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297491" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297491" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32983023" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>384</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data220316/ADT120/data_10_10_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data220316/ADT120/data_10_10_2.txt" />
+    <entry file="file://$PROJECT_DIR$/data220313/ADT1240/data_20_20_4.txt" />
+    <entry file="file://$PROJECT_DIR$/src/Kmeans.java" />
+    <entry file="file://$PROJECT_DIR$/src/TwoReaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoReaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data220313/ADT1240/data_20_20_4.txt" />
+    <entry file="file://$PROJECT_DIR$/src/Kmeans.java" />
+    <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoReaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data220313/ADT1240/data_20_20_4.txt" />
+    <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoReaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data220313/ADT1240/data_20_20_4.txt" />
+    <entry file="file://$PROJECT_DIR$/data220313/ADT1260/data_10_10_0.txt" />
+    <entry file="file://$PROJECT_DIR$/data220313/ADT1260/data_10_20_0.txt" />
+    <entry file="file://$PROJECT_DIR$/data220313/ADT1240/data_20_20_4.txt" />
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_c79m8tlmuw4d22/FileStorage/File/2022-03/Kmeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="33" lean-forward="true" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data220316/basic/BRead0.txt" />
+    <entry file="file://$PROJECT_DIR$/data220316/ADT1210/data_20_20_2.txt" />
+    <entry file="file://$PROJECT_DIR$/data220316/ADT120/data_10_10_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data220316/ADT120/data_10_10_4.txt" />
+    <entry file="file://$PROJECT_DIR$/data220316/ADT120/data_20_20_0.txt" />
+    <entry file="file://$PROJECT_DIR$/data220316/ADT1210/data_10_10_0.txt" />
+    <entry file="file://$PROJECT_DIR$/data220316/ADT1210/data_10_10_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data220316/ADT1210/data_10_10_2.txt" />
+    <entry file="file://$PROJECT_DIR$/data220329/ADT120/data_10_10_4.txt" />
+    <entry file="file://$PROJECT_DIR$/data220329/ADT120/data_10_10_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data220329/ADT120/data_10_10_0.txt" />
+    <entry file="file://$PROJECT_DIR$/data220329/ADT120/data_10_10_2.txt" />
+    <entry file="file://$PROJECT_DIR$/data220329/ADT120/data_10_10_3.txt" />
+    <entry file="file://$PROJECT_DIR$/src/BQdemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/OldTwoReaders.java" />
+    <entry file="file://$PROJECT_DIR$/src/NewNumberOfTags.java" />
+    <entry file="file://$PROJECT_DIR$/data2203302/basic/BRead0.txt" />
+    <entry file="file://$PROJECT_DIR$/data2203302/basic/BRead9.txt" />
+    <entry file="file://$PROJECT_DIR$/src/BasicWrite.java" />
+    <entry file="file://$PROJECT_DIR$/src/Kmeans.java" />
+    <entry file="file://$PROJECT_DIR$/src/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/NumberOfTags.java" />
+    <entry file="file://$PROJECT_DIR$/src/ReaderFunctions.java" />
+    <entry file="file://$PROJECT_DIR$/src/AlienUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoReaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5376">
+          <caret line="256" column="17" selection-start-line="256" selection-start-column="17" selection-end-line="256" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATDMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#4693#4694#0" expanded="true" />
+            <element signature="e#4726#4727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/AlienRFID.jar!/com/alien/enterpriseRFID/reader/AlienClass1Reader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22092">
+          <caret line="1067" column="41" selection-start-line="1067" selection-start-column="39" selection-end-line="1067" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CountingDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/github/Retwork-Experiment/AlienDemo/src/XYreader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MReaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

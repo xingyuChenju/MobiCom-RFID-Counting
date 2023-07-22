@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="fun_get_BestQ2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/fun_get_BestQ2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javabuilder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
