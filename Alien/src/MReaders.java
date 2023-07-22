@@ -3,8 +3,7 @@ import com.alien.enterpriseRFID.reader.AlienReaderException;
 import com.alien.enterpriseRFID.tags.Tag;
 
 import java.io.File;
-import java.io.FileWriter;
-import java.io.Writer;
+
 
 
 public class MReaders {
