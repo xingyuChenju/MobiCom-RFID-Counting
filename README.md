@@ -1,5 +1,5 @@
  
-<h1 align="center">Thermotag</h1>
+<h1 align="center">RFID-Counting</h1>
  
  
 ## Introduction
@@ -7,8 +7,6 @@ This artifact presents the implemental details of ATD. ATD is an efficient RFID 
  
 ## Getting Started
 #### 1. Environment settings:
-We implement ATD in a COTS RFID system that consists of an RFID reader, up to four reader antennas, and 2000 RFID tags. As shown in Fig. \ref{fig:setup}, the reader model is [ALR-F800[{https://www.alientechnology.com/products} from Alien technology that is one of the industry's most experienced RFID suppliers. The reader is connected to a directional antenna Larid [S9028PCR]{} that is with 8.5 dBic gain and operates at around 920 MHz for communicating with tags. 
-
 The software development of the system is Java. The JDK version is 1.80\_121 and [Intellij IDEA](https://www.jetbrains.com/idea/) is severed as the compiler for editing and running these codes. The Java codes are based on [Alien SDK](https://www.alientechnology.com/products/readers/alr-f800/) and are used to measure the Average Time Durations (ATD) from tag responses. The measurement of ATD will be used to predicte the number of tags within a reader's coverage zone.
 
 #### 2. Measure Average Time Duration:
