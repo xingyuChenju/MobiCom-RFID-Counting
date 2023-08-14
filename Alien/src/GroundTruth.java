@@ -9,59 +9,36 @@ import java.io.Writer;
 
 public class GroundTruth {
     static AlienClass1Reader reader;
-    static String path = ".\\data2203302\\basic";
-    static String dataName = "BRead";
+    static String PATH = ".\\data230814";
     static Writer writer;
     static int prior = 0;
     static int nums =0;
     //    static  int atten = 60;
     public static void main(String[] args) throws Exception {
 //        for(int attention = 40;attention<50;attention = attention+10) {
-        String path1 = path + "\\";
-        File file = new File(path1);
+        File file = new File(PATH);
         if (!file.exists())
             file.mkdirs();
-        for (int jjj = 0; jjj < 10; jjj++) {
-            writer = new FileWriter(path1 + dataName + jjj + ".txt", true);
-            AlienUtil.initReader(AlienUtil.IP);
-            long time1 = System.currentTimeMillis();
-            reader = new AlienClass1Reader();
-            reader.setConnection(AlienUtil.IP, 23);
-            reader.open();
-//            reader.setRFAttenuation(0);
-//                setFlag2B("0");
-            setFlag2B("0");
-//            setFlag2B("3");
-            writer.write(-1+" "+-1+" "+-1+" "+System.currentTimeMillis()+"\n");
-            try {
-//                    readTags("0", attention);
-//                    setFlag2A("0",attention+5);
-//                    setFlag2A("2",attention+5);
-//                    readTags("2", attention);
-//                    readTags("0", 60);
-//                readTags("0", 60);
-//                readTags("0", 50);
-//                readTags("0", 40);
-                readTags("0", 30);
-//                readTags("0", 20);
-//                readTags("0", 20);
-                readTags("0", 0);
-//                    readTags("3", 50);
-//                    Thread.sleep(100);
-//                    readTags("3", 20);
-//                    Thread.sleep(100);
-//                    readTags("3", 10);
-//                    Thread.sleep(100);
-//                    readTags("3", 0);
-            } catch (Exception ex) {
-                ex.printStackTrace();
-            } finally {
-                reader.close();
-            }
-            writer.flush();
-            writer.close();
+        writer = new FileWriter(PATH + "\\EC.txt", true);
+        AlienUtil.initReader(AlienUtil.IP);
+        reader = new AlienClass1Reader();
+        reader.setConnection(AlienUtil.IP, 23);
+        reader.open();
+        setFlag2B("0");
+        int n = 0;
+        try {
+            // Alien reader can not read too many tags (>600 tags),
+            // we use two different attentions and use the sum as the groudtruth.
+            n+=readTags("0", 40);
+            n+=readTags("0", 0);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        } finally {
+            reader.close();
         }
-        System.out.println(nums);
+        writer.write(n+"\n");
+        writer.flush();
+        writer.close();
     }
 
     public static void setFlag2A(String antenna,int atten)throws Exception{
@@ -124,7 +101,7 @@ public class GroundTruth {
         reader.getCustomTagList();
     }
 
-    public static void readTags(String antenna,int atten)throws Exception{
+    public static int readTags(String antenna,int atten)throws Exception{
 //        for (int iii = 0;iii<10;iii++)
 //        for(int i=15;i>0;i--) {
 //        reader.doReaderCommand("freq="+1);
@@ -143,11 +120,12 @@ public class GroundTruth {
         Tag[] tags = reader.getCustomTagList();
         if (tags != null) {
             System.out.println(tags.length+"---------------"+"i"+"----------------");
-            writer.write(antenna+" "+atten+" "+tags.length+" "+System.currentTimeMillis()+"\n");
+            return tags.length;
         }
         else{
 //                writer.write(0+"\n");
             System.out.println("----------------Null----------------");
+            return 0;
         }
     }
     public static void maskBit(String mask,AlienClass1Reader reader,String antenna) throws AlienReaderException {
