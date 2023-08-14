@@ -166,7 +166,7 @@ public class ATDMethods {
                 ex.printStackTrace();
             }
         }
-        for (int Q = 0;Q<16;Q++) {if (nums[Q]>15) { this.n = Math.pow(2,Q);
+        for (int Q = 0;Q<16;Q++) {if (nums[Q]>13) { this.n = Math.pow(2,Q);
             return this.n;
         }
         }

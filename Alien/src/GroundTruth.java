@@ -27,10 +27,11 @@ public class GroundTruth {
         setFlag2B("0");
         int n = 0;
         try {
-            // Alien reader can not read too many tags (>600 tags),
-            // we use two different attentions and use the sum as the groudtruth.
+            // Alien reader can not read too many tags (>500 tags) through one query command
+            // We use two or more queries with different attentions to collect tags.
             n+=readTags("0", 40);
             n+=readTags("0", 0);
+            System.out.println(n);
         } catch (Exception ex) {
             ex.printStackTrace();
         } finally {
@@ -119,12 +120,12 @@ public class GroundTruth {
         reader.setAcquireG2Target("B");
         Tag[] tags = reader.getCustomTagList();
         if (tags != null) {
-            System.out.println(tags.length+"---------------"+"i"+"----------------");
+//            System.out.println(tags.length+"---------------"+"i"+"----------------");
             return tags.length;
         }
         else{
 //                writer.write(0+"\n");
-            System.out.println("----------------Null----------------");
+//            System.out.println("----------------Null----------------");
             return 0;
         }
     }

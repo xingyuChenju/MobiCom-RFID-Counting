@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5dafd752-4ad1-43f9-b817-fb8f20ea43f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data230814/ATD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data230814/EC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RFIDCounting/GroundTruth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RFIDCounting/GroundTruth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ATDMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATDMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GroundTruth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroundTruth.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +26,8 @@
       <file leaf-file-name="CountingDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CountingDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="210">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,20 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EC.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data230814/EC.txt">
+      <file leaf-file-name="ATD.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data230814/ATD.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ATD.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data230814/ATD.txt">
+      <file leaf-file-name="EC.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data230814/EC.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -67,8 +70,8 @@
       <file leaf-file-name="ATDMethods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ATDMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="287">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
               <folding>
                 <element signature="e#4693#4694#0" expanded="true" />
                 <element signature="e#4726#4727#0" expanded="true" />
@@ -80,17 +83,17 @@
       <file leaf-file-name="AlienUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AlienUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="609">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroundTruth.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroundTruth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="63">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -206,13 +209,13 @@
         <option value="$PROJECT_DIR$/src/Read.java" />
         <option value="$PROJECT_DIR$/src/ATDM.java" />
         <option value="$PROJECT_DIR$/src/ReaderFunctions.java" />
-        <option value="$PROJECT_DIR$/src/ATDMethods.java" />
         <option value="$PROJECT_DIR$/src/TwoReaders.java" />
         <option value="$PROJECT_DIR$/src/MReaders.java" />
-        <option value="$PROJECT_DIR$/data230814/ATD.txt" />
         <option value="$PROJECT_DIR$/src/CountingDemo.java" />
-        <option value="$PROJECT_DIR$/data230814/EC.txt" />
         <option value="$PROJECT_DIR$/src/GroundTruth.java" />
+        <option value="$PROJECT_DIR$/src/ATDMethods.java" />
+        <option value="$PROJECT_DIR$/data230814/ATD.txt" />
+        <option value="$PROJECT_DIR$/data230814/EC.txt" />
       </list>
     </option>
   </component>
@@ -222,7 +225,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1455" />
     <option name="height" value="760" />
   </component>
@@ -424,7 +427,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -434,12 +436,13 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012126" side_tool="true" weight="0.39964157" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32983023" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.38088444" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.38088444" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297491" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39784947" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7449275" visible="true" weight="0.23391421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7449275" visible="true" weight="0.23391421" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
       <window_info id="Structure" order="1" sideWeight="0.25507247" side_tool="true" weight="0.31851253" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -452,7 +455,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -529,8 +531,20 @@
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CountingDemo.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ATDMethods.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -612,25 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlienUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATDMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#4693#4694#0" expanded="true" />
-            <element signature="e#4726#4727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RFIDCounting.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data230814EC.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MReaders.java">
@@ -643,37 +642,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data230814EC.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data230814/ATD.txt">
+    <entry file="file://$PROJECT_DIR$/src/AlienUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="609">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data230814/EC.txt">
+    <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        <state relative-caret-position="63">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATDMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+          <folding>
+            <element signature="e#4693#4694#0" expanded="true" />
+            <element signature="e#4726#4727#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CountingDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
+    <entry file="file://$PROJECT_DIR$/data230814/ATD.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data230814/EC.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
