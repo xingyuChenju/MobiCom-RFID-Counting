@@ -1,6 +1,4 @@
 function [Qmin,Mmin,Tmin]= fun_get_M(alpha,beta,n)
-%FUN_GET_M 此处显示有关此函数的摘要
-%   此处显示详细说明
 Mmin =  100000000000000000000000;
 Tmin = 100000000000000000000000;
 Qmin = 0;

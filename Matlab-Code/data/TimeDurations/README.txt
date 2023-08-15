@@ -1,0 +1,1 @@
+This folder gives the response times of tags with respect to different Qmax. From the raw data, we observe that the number of tags affects the time durations between tag responses, which is the basic idea of our work.  
