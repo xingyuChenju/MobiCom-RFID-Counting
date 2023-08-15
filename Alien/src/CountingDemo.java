@@ -6,12 +6,12 @@ import java.io.Writer;
 
 public class CountingDemo {
     static AlienClass1Reader reader;
-    static String PATH = ".\\data230814";
+    static String PATH = ".\\data230816";
     static Writer writer;
     public static void main(String[] args) throws Exception {
         reader = AlienUtil.initReader(AlienUtil.IP);
         ATDMethods.reader = reader;
-        ATDMethods demo = new ATDMethods(0.1,0.1);
+        ATDMethods demo = new ATDMethods(0.15,0.15);
         reader.open();
         demo.roughEstimator(0);
         demo.bestQ();

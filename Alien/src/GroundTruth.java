@@ -9,7 +9,7 @@ import java.io.Writer;
 
 public class GroundTruth {
     static AlienClass1Reader reader;
-    static String PATH = ".\\data230814";
+    static String PATH = ".\\data230816";
     static Writer writer;
     static int nums =0;
     //    static  int atten = 60;
@@ -23,7 +23,6 @@ public class GroundTruth {
         reader = new AlienClass1Reader();
         reader.setConnection(AlienUtil.IP, 23);
         reader.open();
-        setFlag2B("0");
         setFlag2B("0");
         int n = 0;
         try {
