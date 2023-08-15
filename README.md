@@ -44,4 +44,4 @@ In folder Video, we use a video example to show how to run ATD in practice .
      │    └─functions
      └─Video
 
-Codes are in folder Alien\src.
+The measurement codes are in folder Alien\src. The evaluation codes are in folder Matlab-Code.
