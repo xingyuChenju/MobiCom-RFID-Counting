@@ -7,5 +7,5 @@ p0 = (1-1/f)^n;
 p1 = n/f*(1-1/f)^(n-1);
 k = log2(f);
 T = (1-p0^k)/(1-p0) +log2(f)*p0^k
-time = (T*0.4+1)*m;
+time = (T*0.3+1)*m;
 end

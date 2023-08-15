@@ -4,5 +4,5 @@ function [time] = fun_get_ZOE(alpha,beta,n)
 x = (exp(-1)*(1-exp(-1)))^(1/2);
 c = -norminv((beta)/2,0,1);
 m = (c*x/(exp(-1)*(1-exp(-alpha))))^2
-time = 1.4*m;
+time = 1.3*m;
 end

@@ -20,7 +20,7 @@ hold on
 plot(0.02:0.02:0.2,line2,'Color',c{3},'LineWidth',0.75,'LineStyle','-.','Marker','^','MarkerFaceColor',c{3})
 hold on
 plot(0.02:0.02:0.2,line1,'Color',c{4},'LineWidth',0.75,'LineStyle','-.','Marker','s','MarkerFaceColor',c{4})
-% ylim([0 10.9])
+%  ylim([0 5])
 xlim([0.02 0.2])
 fun_set_axis_size('\beta','Time (s)',16,[420 300]);
 legend('ATD','FENB','ZOE','northeast')

@@ -1,35 +1,23 @@
 close all
 clear all
 addpath('functions')
-% fun_draw_n(0.05,0.05);
-% fun_draw_n(0.10,0.10);
-fun_draw_n(0.20,0.20);
-function [] = fun_draw_n(alpha,beta)
-% Times = zeros(100,1);
-% Times1 = zeros(100,1);
-% Times2 = zeros(100,1);
-
+alpha = 0.05;
+beta = 0.2;
+c = {[0,18,25]/255,[9,147,150]/255,[238,155,0]/255,[204,102,2]/255,[174 32 18]/255};
 for ii = 1000:1000:100000
-    Times(ii/1000) = fun_get_BestQ(alpha,beta,ii);
-    Times1(ii/1000) = fun_get_FNEB(alpha,beta,ii);
-    Times2(ii/1000) = fun_get_UPE(alpha,beta,ii);
+    Times(ii/1000) = fun_get_BestQ(alpha,beta,ii)/1000;
+    Times1(ii/1000) = fun_get_FNEB(alpha,beta,ii)/1000;
+    Times2(ii/1000) = fun_get_ZOE(alpha,beta,ii)/1000;
 end
-c = gray(6)
-figure
-semilogx(1000:1000:100000,Times/1000,'-','Color',c(1,:),'LineWidth',0.75)
-% ylim([0 2])
+figure 
+semilogx(1000:1000:100000,Times,'Color',c{1},'LineWidth',1.2,'LineStyle','-')
 hold on
-semilogx(1000:1000:100000,Times1/1000,'--','Color',c(3,:),'LineWidth',0.75)
-% ylim([0 2])
+semilogx(1000:1000:100000,Times1,'Color',c{3},'LineWidth',1.2,'LineStyle','-')
 hold on
-semilogx(1000:1000:100000,Times2/1000,'-.','Color',c(2,:),'LineWidth',0.75)
-% ylim([0 2])
-% hold on
-
-fun_set_axis_size('Number of Tags n','Time (s)',16,[420 300])
+semilogx(1000:1000:100000,Times2,'Color',c{5},'LineWidth',1.2,'LineStyle','-.')
+hold on
+ylim([0 5])
+fun_set_axis_size('Number of Tags','Time (s)',16,[420 300]);
+legend('ATD','FENB','ZOE','Location','northwest')
 grid on
-legend('ATD','FNEB','UPE','Location','northwest')
-
-end
-
 

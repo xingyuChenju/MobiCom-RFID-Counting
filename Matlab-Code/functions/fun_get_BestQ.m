@@ -18,15 +18,15 @@ for Q=5:14
             Mmin = m;
             Qmin = Q;
             q1 = n/f*(1-1/f)^(n-1);
-            T2 = Mmin/q1*0.4+1;
+            T2 = Mmin/q1*0.3+1;
         end
     else
-        Mmin
+        Mmin;
         T2 = Mmin/q1*0.4+1;
         break
     end 
 end
-Mmin
+Mmin;
 end
 
 function p = fun_get_P(f,n)
