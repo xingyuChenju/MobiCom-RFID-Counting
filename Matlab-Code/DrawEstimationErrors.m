@@ -1,16 +1,14 @@
 close all
 clear all
 addpath('functions')
+% We plot the estimation error of ATD
 path1 = 'data\EstimationResults\Alpha010Beta010\';
 path2 = 'data\EstimationResults\Alpha015Beta015\';
-
 
 errors1 = fun_get_errors([path1 'data230814']);
 errors1 = [errors1;fun_get_errors([path1 'data230815'])];
 errors2 = fun_get_errors([path2 'data230816']);
 c = {[0,18,25]/255,[9,147,150]/255,[238,155,0]/255,[174 32 18]/255};
-
-
 
 figure
 cdfplot(errors1)
