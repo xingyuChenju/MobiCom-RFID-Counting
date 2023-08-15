@@ -13,12 +13,12 @@ public class CountingDemo {
         ATDMethods.reader = reader;
         ATDMethods demo = new ATDMethods(0.1,0.1);
         reader.open();
-        demo.roughEstimator('0');
+        demo.roughEstimator(0);
         demo.bestQ();
         double averageTimeDuration = demo.getTimeDurations(0);
-        System.out.println(demo.getQ());
-        System.out.println(averageTimeDuration);
-        System.out.println(demo.getTagNumber(averageTimeDuration));
+        System.out.println("Q: "+demo.getQ());
+        System.out.println("ATD: "+averageTimeDuration);
+        System.out.println("Number of Tags: "+demo.getTagNumber(averageTimeDuration));
         File file = new File(PATH);
         if (!file.exists())
             file.mkdirs();

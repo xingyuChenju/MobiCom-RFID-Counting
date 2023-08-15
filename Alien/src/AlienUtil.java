@@ -2,10 +2,7 @@ import com.alien.enterpriseRFID.reader.AlienClass1Reader;
 import com.alien.enterpriseRFID.reader.AlienReaderException;
 import com.alien.enterpriseRFID.tags.Tag;
 
-/**
- * Created by Xingyu on 2020/10/31.
- *
- */
+
 public class AlienUtil {
 
     public static final String IP ="192.168.1.100";

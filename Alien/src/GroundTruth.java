@@ -11,7 +11,6 @@ public class GroundTruth {
     static AlienClass1Reader reader;
     static String PATH = ".\\data230814";
     static Writer writer;
-    static int prior = 0;
     static int nums =0;
     //    static  int atten = 60;
     public static void main(String[] args) throws Exception {
@@ -25,13 +24,15 @@ public class GroundTruth {
         reader.setConnection(AlienUtil.IP, 23);
         reader.open();
         setFlag2B("0");
+        setFlag2B("0");
         int n = 0;
         try {
             // Alien reader can not read too many tags (>500 tags) through one query command
             // We use two or more queries with different attentions to collect tags.
             n+=readTags("0", 40);
+//            n+=readTags("0", 20);
             n+=readTags("0", 0);
-            System.out.println(n);
+            System.out.println("Ground truth: "+n);
         } catch (Exception ex) {
             ex.printStackTrace();
         } finally {
