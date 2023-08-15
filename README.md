@@ -27,13 +27,21 @@ The method used in our paper is given in ATDMethods.java. We show how to estimat
  
 #### 4. Evaluation:
 You can calculate the estiamtion error of ATD by running GroundTruth.java. In this class, we obtain the true number of tags by esclusively collecting all tag IDs.
+
+Within the Matlab-Code folder, we plot the estimation error and the time cost of ATD. Additionally, we've included simulations that allow us to compare the performance of ATD with existing state-of-the-art methods.
+
+Within the Video folder, we have provided a practical video example that demonstrates the steps to effectively conduct tag counting by using ATD.
  
 ## Project Structure 
     code
      └─Alien
-         ├─.idea
-         │  └─libraries  
-         ├─lib
-         └─src
+     │   ├─.idea
+     │   │  └─libraries  
+     │   ├─lib
+     │   └─src
+     └─Matlab-Code
+     │    ├─data
+     │    └─functions
+     └─Video
 
-Codes are in folder Alien\src.
+The measurement codes are in folder Alien\src. The evaluation codes are in folder Matlab-Code.
