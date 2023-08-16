@@ -1,7 +1,7 @@
 close all
 clear all
 addpath('functions')
-%% We plot the estimation error of ATD
+% We plot the estimation error of ATD
 path1 = 'data\EstimationResults\Alpha010Beta010\';
 path2 = 'data\EstimationResults\Alpha015Beta015\';
 
@@ -27,15 +27,7 @@ gTruth = [gTruth1;gTruth2];
 merror = [];
 for i = 200:100:500
 index = gTruth>i & gTruth<i+100;
-merror = [merror;mean(errors1(index))];
-end
-%% The relationship between the error and the number of tags.
-figure
-bar(merror)
-ylim([0 0.5])
-xticklabels({'300' '400' '500' '600'})
-grid on
-fun_set_axis_size('Number of Tags','Estimation Error',16,[420 300]);
+merror = [mean(errors1(index))];
 
 
 function [errors,groundTruth] = fun_get_errors(path)
