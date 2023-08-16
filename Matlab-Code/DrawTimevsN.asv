@@ -20,6 +20,6 @@ hold on
 semilogx(1000:1000:100000,Times3,'Color',c{2},'LineWidth',1.2,'LineStyle','-.')
 ylim([0 5])
 fun_set_axis_size('Number of Tags','Time (s)',16,[420 300]);
-legend('ATD','FENB','ZOE','UPE','Location','northwest')
+legend('ATD','FENB','ZOE','Location','northwest')
 grid on
 
