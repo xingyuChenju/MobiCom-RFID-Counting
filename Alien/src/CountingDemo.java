@@ -26,7 +26,7 @@ public class CountingDemo {
         System.out.println("Q: "+demo.getQ());
         System.out.println("ATD: "+averageTimeDuration);
         System.out.println("Number of Tags: "+demo.getTagNumber(averageTimeDuration));
-        System.out.println("Time: "+ time);
+        System.out.println("Time Cost: "+ time +"ms");
         File file = new File(PATH);
         if (!file.exists())
             file.mkdirs();
