@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dafd752-4ad1-43f9-b817-fb8f20ea43f3" name="Default" comment="" />
+    <list default="true" id="5dafd752-4ad1-43f9-b817-fb8f20ea43f3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RFIDCounting/CountingDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RFIDCounting/CountingDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RFIDCounting/GroundTruth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RFIDCounting/GroundTruth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GroundTruth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroundTruth.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,17 +21,12 @@
     <SUITE FILE_PATH="coverage/TwoReaders_java$ATDM.ic" NAME="ATDM Coverage Results" MODIFIED="1689670979493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RFIDCounting.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RFIDCounting.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="CountingDemo.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CountingDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CountingDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            <state relative-caret-position="231">
+              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,15 +34,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ATDMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ATDMethods.java">
+      <file leaf-file-name="time2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data230817/time2.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="time1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data230817/time1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="147" column="46" selection-start-line="147" selection-start-column="46" selection-end-line="147" selection-end-column="46" />
-              <folding>
-                <element signature="e#4693#4694#0" expanded="true" />
-                <element signature="e#4726#4727#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ATD.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data230817/ATD.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="EC.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data230817/EC.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="time.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data230817/time.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -49,26 +70,33 @@
       <file leaf-file-name="GroundTruth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="258">
+              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EC.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data230816/EC.txt">
+      <file leaf-file-name="EC.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data230815/EC.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-123" />
+            <state relative-caret-position="324">
+              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ATD.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data230816/ATD.txt">
+        <entry file="file://$PROJECT_DIR$/data230815/ATD.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="303">
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EC.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data230816/EC.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -178,7 +206,10 @@
         <option value="$PROJECT_DIR$/data230815/ATD.txt" />
         <option value="$PROJECT_DIR$/data230815/EC.txt" />
         <option value="$PROJECT_DIR$/src/GroundTruth.java" />
+        <option value="$PROJECT_DIR$/data230817/ATD.txt" />
+        <option value="$PROJECT_DIR$/data230817/time.txt" />
         <option value="$PROJECT_DIR$/src/CountingDemo.java" />
+        <option value="$PROJECT_DIR$/data230817/time1.txt" />
       </list>
     </option>
   </component>
@@ -207,6 +238,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,15 +266,17 @@
             <path>
               <item name="TwoReaders.java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alien" type="462c0819:PsiDirectoryNode" />
+              <item name="data230817" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TwoReaders.java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alien" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -271,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroundTruth">
+  <component name="RunManager" selected="Application.CountingDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -370,8 +406,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GroundTruth" />
         <item itemvalue="Application.CountingDemo" />
+        <item itemvalue="Application.GroundTruth" />
         <item itemvalue="Application.MReaders" />
         <item itemvalue="Application.AlienUtil" />
         <item itemvalue="Application.TwoReaders" />
@@ -404,54 +440,54 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012126" side_tool="true" weight="0.39964157" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32983023" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.38088444" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.38088444" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39784947" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7449275" visible="true" weight="0.24396783" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7449275" visible="true" weight="0.24731903" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
       <window_info id="Structure" order="1" sideWeight="0.25507247" side_tool="true" weight="0.31851253" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987874" weight="0.39942938" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297587" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.38088444" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7449275" visible="true" weight="0.23391421" />
       <window_info id="Structure" order="1" sideWeight="0.25507247" side_tool="true" weight="0.31851253" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297491" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32983023" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987874" weight="0.39942938" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39784947" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5012126" side_tool="true" weight="0.39964157" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297491" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32952926" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297587" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7449275" visible="true" weight="0.23391421" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32983023" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -530,16 +566,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TwoReaders.java" />
     <entry file="file://$PROJECT_DIR$/data220313/ADT1240/data_20_20_4.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Kmeans.java" />
-    <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwoReaders.java" />
-    <entry file="file://$PROJECT_DIR$/data220313/ADT1240/data_20_20_4.txt" />
     <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -612,20 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data230815/EC.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data230815/ATD.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MReaders.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -636,22 +648,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RFIDCounting.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CountingDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ATDMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
+        <state relative-caret-position="2793">
           <caret line="147" column="46" selection-start-line="147" selection-start-column="46" selection-end-line="147" selection-end-column="46" />
           <folding>
             <element signature="e#4693#4694#0" expanded="true" />
@@ -660,23 +659,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data230816/ATD.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="609">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data230816/EC.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data230815/EC.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123" />
+        <state relative-caret-position="324">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data230815/ATD.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data230817/time.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data230817/ATD.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data230817/EC.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data230817/time1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GroundTruth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data230817/time2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CountingDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

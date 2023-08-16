@@ -10,7 +10,7 @@ import java.io.Writer;
 
 public class GroundTruth {
     static AlienClass1Reader reader;
-    static String PATH = ".\\data230815";
+    static String PATH = ".\\data230817";
     static Writer writer;
     static int nums =0;
     //    static  int atten = 60;
@@ -24,15 +24,19 @@ public class GroundTruth {
         reader = new AlienClass1Reader();
         reader.setConnection(AlienUtil.IP, 23);
         reader.open();
+        long time = System.currentTimeMillis();
         setFlag2B("0");
         int n = 0;
         try {
-            // Alien reader can not read too many tags (>500 tags) through one query command
+            // Alien reader can not read too many tags (>500 tags) through one query command.
             // We use two or more queries with different attentions to collect tags.
-            n+=readTags("0", 40);
+            // The time cost of exclusive collection is not very stable and is much longer than the time cost of ATD.
+//            n+=readTags("0", 40);
 //            n+=readTags("0", 20);
             n+=readTags("0", 0);
+            time = System.currentTimeMillis()-time;
             System.out.println("Ground truth: "+n);
+            System.out.println("Time: "+ time);
         } catch (Exception ex) {
             ex.printStackTrace();
         } finally {
