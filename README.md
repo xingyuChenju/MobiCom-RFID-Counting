@@ -16,9 +16,10 @@ After that, run AlienUtil.java to initialize the setting of RFID reader.
 
 Finally, start CountingDemo.java and the number of tags will be printed in the command line. The data format is as follows:
 
-    Best Q Value： 7
+    Q Value： 7
     Average Time Duration: 9
-    Estimated Number of Tags: 700
+    Number of Tags: 700
+    Time Cost: 2000 ms
 
 The Average Time Duration of a tag is the average time difference between adjacent tag replies.
  
