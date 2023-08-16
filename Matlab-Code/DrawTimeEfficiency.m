@@ -3,9 +3,9 @@ clear all
 addpath('functions')
 colors = {[0,18,25]/255,[9,147,150]/255,[238,155,0]/255,[174 32 18]/255};
 %% The time cost data is within data\TimeCost, 
-% We updata the code many times to make it stable in practice. 
-% The result is better than what we used in the paper. The average time
-% cost is about 2s if alpha = 0.1 and beta = 0.1.
+% We have updated the code multiple times to enhance its practical stability. 
+% Consequently, the outcomes achieved surpass those initially reported in the paper. 
+% The average time cost is about 2s when alpha = 0.1 and beta = 0.1.
 path = 'data\TimeCost'
 times1 = load([path '\300.txt']);
 times2 = load([path '\400.txt']);
