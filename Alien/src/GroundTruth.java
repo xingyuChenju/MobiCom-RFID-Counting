@@ -6,10 +6,11 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.Writer;
 
+// This class extracts the true number of tags trough Exclusive Collection (EC).
 
 public class GroundTruth {
     static AlienClass1Reader reader;
-    static String PATH = ".\\data230816";
+    static String PATH = ".\\data230815";
     static Writer writer;
     static int nums =0;
     //    static  int atten = 60;

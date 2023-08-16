@@ -4,7 +4,7 @@ import com.alien.enterpriseRFID.tags.Tag;
 
 import java.io.File;
 
-
+// This class shows how to set the SL flag.
 
 public class MReaders {
     static AlienClass1Reader reader;

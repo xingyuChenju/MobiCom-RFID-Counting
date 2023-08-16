@@ -2,6 +2,8 @@ close all
 clear all
 addpath('functions')
 colors = {[0,18,25]/255,[9,147,150]/255,[238,155,0]/255,[174 32 18]/255};
+% The time cost doesn't vary a lot in practice,
+% Below is the average results of a few runs.
 figure
 EC = [4.1 5 5.9 6.7 7.8 8.2]            
 ATD = [2.6 2.1 2.2 2.3 2.4 2]

@@ -1,0 +1,1 @@
+ATD.txt shows the estimation results of ATD, EC.txt gives the corresponding ground truth. The name of a folder is the setting of the parameter alpha and the the parameter beta. 

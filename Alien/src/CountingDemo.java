@@ -4,14 +4,16 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.Writer;
 
+// This class estimates the number of tags trough Average Time Durations (ATD).
+
 public class CountingDemo {
     static AlienClass1Reader reader;
-    static String PATH = ".\\data230816";
+    static String PATH = ".\\data230815";
     static Writer writer;
     public static void main(String[] args) throws Exception {
         reader = AlienUtil.initReader(AlienUtil.IP);
         ATDMethods.reader = reader;
-        ATDMethods demo = new ATDMethods(0.15,0.15);
+        ATDMethods demo = new ATDMethods(0.1,0.1);
         reader.open();
         demo.roughEstimator(0);
         demo.bestQ();
