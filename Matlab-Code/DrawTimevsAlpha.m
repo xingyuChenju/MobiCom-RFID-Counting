@@ -5,9 +5,11 @@ c = {[0,18,25]/255,[9,147,150]/255,[238,155,0]/255,[174 32 18]/255};
 
 line1 = [];
 line2 = [];
-line3 =[];
+line3 = [];
+line4 = [];
 
 for i=0.02:0.01:0.1
+    line4 = [line4;fun_get_UPE(i,0.2,10000)/1000];
     line3 = [line3;fun_get_BestQ(i,0.2,10000)/1000];
     line2 = [line2;fun_get_FNEB(i,0.2,10000)/1000];
     line1 = [line1;fun_get_ZOE(i,0.2,10000)/1000];
@@ -20,9 +22,11 @@ hold on
 plot(0.02:0.01:0.1,line2,'Color',c{3},'LineWidth',0.75,'LineStyle','-.','Marker','^','MarkerFaceColor',c{3})
 hold on
 plot(0.02:0.01:0.1,line1,'Color',c{4},'LineWidth',0.75,'LineStyle','-.','Marker','s','MarkerFaceColor',c{4})
+hold on
+plot(0.02:0.01:0.1,line4,'Color',c{2},'LineWidth',0.75,'LineStyle','-.','Marker','*','MarkerFaceColor',c{2})
 
 fun_set_axis_size('\alpha','Time (s)',16,[420 300]);
-legend('ATD','FENB','ZOE','northeast')
+legend('ATD','FENB','ZOE','UPE','northeast')
 grid on
 
 
